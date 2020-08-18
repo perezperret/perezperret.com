@@ -1,0 +1,14 @@
+title: I spend a bit of time building little projects to learn new stuff
+content:
+  - title: "Colleges API"
+    description:
+      A simple API to query and autocomplete US higher education institutions. Needed this for a client project so I built it as a stand-alone service.
+    url: https://postsecapisample.netlify.app
+  - title: "QuickURL"
+    description:
+      A small utility to build URLs from JavaScript objects. Was interesting to write using recursion.
+    url: https://quick-url-demo.netlify.app
+  - title: "GistGenerator"
+    description:
+      A Ruby utility to build gists or snippets from code hosted on GitHub. Give it a repo name, file path and line numbers and it'll build a snippet.
+    url: https://gist-generator-sample.vercel.app

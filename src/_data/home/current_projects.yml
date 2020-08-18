@@ -1,0 +1,17 @@
+title: I'm currently working full-time on a few personal projects
+content:
+  - title: PocketPatch
+    description:
+      An expense tracking and budgeting tool that helps you become more aware of your spending.
+    url: https://pocketpatch.io
+    link: Go to app
+  - title: Rails by Example
+    description:
+      An attempt to share what I've learned so far about using Ruby on Rails with code examples and blog posts.
+    url: https://github.com/railsbyexample
+    link: View on GitHub
+  - title: Consulting
+    description:
+      I'm looking to get involved in software products, not only by coding, but by getting invovlved in the business and strategy.
+    url: /consulting
+    link: Learn more

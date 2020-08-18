@@ -1,0 +1,30 @@
+<% data = site.data[:home][:work_experience] %>
+
+<div class="bg-white py-32">
+  <div class="container mx-auto">
+    <h2 class="text-3xl mb-16 text-gray-700 text-center max-w-xl mx-auto"><%= data[:title] %></h2>
+
+    <% data[:content].each.with_index do |job, i| %>
+      <div class="flex -mx-4 items-stretch <%= (i % 2).positive? ? 'flex-row-reverse' : '' %>">
+        <div class="px-4 w-1/2">
+          <div class="p-8 bg-white text-gray-800 rounded-lg my-16">
+            <h3 class="font-bold text-gray-900 text-2xl"><%= job[:title] %></h3>
+            <h4 class="font-bold text-gray-700 mb-4"><%= job[:sub_title] %></h4>
+
+            <p><%= job[:description] %></p>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="border-r-8 border-blue-500 flex-1 h-full"></div>
+          <div class="h-8 w-8 rounded-full border-solid border-8 border-blue-500"></div>
+          <div class="border-r-8 border-blue-500 flex-1 h-full"></div>
+        </div>
+
+        <div class="px-4 w-1/2 flex items-center text-xl text-gray-700 <%= (i % 2).positive? ? 'justify-end' : '' %>">
+          <%= job[:date] %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

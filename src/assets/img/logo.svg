@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="207px" height="106px" viewBox="0 0 207 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="25.5233789%" y1="10.6208665%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009774" offset="0%"></stop>
+            <stop stop-color="#008C95" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.3449955%" y1="23.3963157%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#00A14E" offset="0%"></stop>
+            <stop stop-color="#009774" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="98.0383832%" y1="100%" x2="23.1869905%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#00A14E" offset="0%"></stop>
+            <stop stop-color="#4AA720" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-127.000000, -166.000000)">
+            <g id="Logo" transform="translate(125.000000, 166.000000)">
+                <g transform="translate(2.000000, 0.000000)" id="Triangle-2">
+                    <polygon fill="url(#linearGradient-1)" points="160.792969 0 206.681641 105.132812 84 105.132812 143.996094 49.6484375"></polygon>
+                    <polygon fill="url(#linearGradient-2)" points="122.867188 30.8515625 137.775391 68.0126953 180 105.173828 42 105.173828"></polygon>
+                    <polygon fill="url(#linearGradient-3)" points="59.3632812 45 138 105.173828 0 105.173828 41.71875 81.8144531"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

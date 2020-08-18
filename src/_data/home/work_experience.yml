@@ -1,0 +1,27 @@
+title: I have worked for a few startups and small companies all over the world
+content:
+  - date: Dec 2018 - present
+    title: FormKeep
+    sub_title: Full-stack Developer - San Francisco (remote)
+    description:
+      Helped build dozens of features using Ruby on Rails. Most interestingly, built team collaboration and a mass email campaigns feature.
+  - date: Jun 2018 - Dec 2018
+    title: Keeprocket
+    sub_title: Founder - Caracas
+    description:
+      Built an inventory management system for clothing brands in Venezuela. Sadly couldn't get it off the ground. Have my sights set on open-sourcing it.
+  - date: Jan 2018 - Jun 2018
+    title: store2be
+    sub_title: Full-stack Developer - Berlin (remote)
+    description:
+      Worked on a group of Ruby on Rails + React apps for a live marketing locations marketplace. Worked on small fixes and features.
+  - date: Jan 2017 - Dec 2017
+    title: Talent Hack
+    sub_title: Full-stack Developer - NY (remote)
+    description:
+      Built the first MVP for a jobs marketplace for the US fitness industry, as a solo developer using Ruby on Rails and React.
+  - date: Jan 2016 - Dec 2016
+    title: ZOMOZ
+    sub_title: Front-end Developer - Caracas
+    description:
+      Helped build the front-end for a local activities startup using Angular as part of a small team.
