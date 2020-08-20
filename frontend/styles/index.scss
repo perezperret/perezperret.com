@@ -3,17 +3,33 @@
 @import 'tailwindcss/utilities';
 
 .content {
-  @apply .text-gray-800;
+  @apply .text-gray-900;
 
   h2 {
-    @apply .text-3xl .font-bold .mb-4 .mt-12 .text-gray-900;
+    @apply .text-3xl .font-bold .font-serif .mb-4 .mt-12 .text-gray-900;
   }
 
   p {
-    @apply .text-lg .mb-6 .font-sans .leading-8;
+    @apply .text-lg .mb-6 .leading-8;
+  }
+
+  a {
+    @apply .border-b-2 .border-blue-400;
+  }
+}
+
+.heading {
+  @apply .text-gray-800 .font-bold .font-serif;
+
+  &--link {
+    @apply .border-b-4 .border-yellow-400 .inline-block;
+  }
+
+  &--highlight {
+    @apply .border-b-4 .border-blue-400 .inline-block;
   }
 }
 
 body {
-  @apply .bg-gray-200 .font-serif;
+  @apply .bg-white .font-sans;
 }

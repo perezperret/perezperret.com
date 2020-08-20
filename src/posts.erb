@@ -1,32 +1,36 @@
 ---
-layout: posts
+layout: page
 title: Santiago's Blog
 sub_title: My thoughts and advice about life, personal finance and software development.
 permalink: /blog
 ---
 
-<ul>
-  <% site.posts.reverse.each do |post| %>
-    <li>
-      <a class="block mb-20" href="<%= post.url %>">
-        <h2 class="text-3xl text-gray-900 font-bold mb-6 border-b-4 border-yellow-500 inline-block"><%= post[:title] %></h2>
+<div class="max-w-2xl pt-16">
+  <ul>
+    <% site.posts.reverse.each do |post| %>
+      <li>
+        <a class="block mb-20" href="<%= post.url %>">
+          <h2 class="mb-6 text-3xl heading heading--link"><%= post[:title] %></h2>
 
-        <p class="text-lg leading-8 font-sans text-gray-800 mb-6"><%= post[:excerpt] %></p>
-
-        <div class="flex items-center justify-between">
-          <div class="flex">
-            <% post[:categories].each do |category| %>
-              <div class="font-sans text-blue-500 mr-4 uppercase font-bold text-xs"><%= category %></div>
-            <% end %>
+          <div class="content">
+            <p><%= post[:excerpt] %></p>
           </div>
 
-          <div class="flex items-center">
-            <div class="font-sans text-blue-500"><%= post[:author] %></div>
-            <div class="mx-6 text-gray-600">–</div>
-            <div class="font-sans text-gray-600"><%= date_to_string post[:date], 'ordinal', 'US' %></div>
+          <div class="flex items-center justify-between">
+            <div class="flex">
+              <% post[:categories].each do |category| %>
+                <div class="font-sans text-blue-500 mr-4 uppercase font-bold text-xs"><%= category %></div>
+              <% end %>
+            </div>
+
+            <div class="flex items-center">
+              <div class="font-sans text-blue-500"><%= post[:author] %></div>
+              <div class="mx-6 text-gray-600">–</div>
+              <div class="font-sans text-gray-600"><%= date_to_string post[:date], 'ordinal', 'US' %></div>
+            </div>
           </div>
-        </div>
-      </a>
-    </li>
-  <% end %>
-</ul>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</div>
