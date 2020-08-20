@@ -3,6 +3,10 @@ module.exports = {
     './src/**/*.html',
   ],
   theme: {
+    fontFamily: {
+      sans: 'Open sans',
+      serif: 'Roboto Slab'
+    },
     screens: {
       'sm': '400px',
       'md': '640px',

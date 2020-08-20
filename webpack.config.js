@@ -58,7 +58,7 @@ module.exports = {
             options: {
               sassOptions: {
                 includePaths: [
-                  path.resolve(__dirname, "src/_components")
+                  path.resolve(__dirname, "src/_components"),
                 ],
               },
             },

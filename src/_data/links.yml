@@ -1,0 +1,14 @@
+- text: "About"
+  url: "/#intro"
+
+- text: "Work"
+  url: "/#current_projects"
+
+- text: "Experience"
+  url: "/#work_experience"
+
+- text: "Contact"
+  url: "#contact_form"
+
+- text: "Blog"
+  url: "/blog"

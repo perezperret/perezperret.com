@@ -1,0 +1,17 @@
+---
+---
+
+<html lang="en">
+  <head>
+    <%= liquid_render "head", metadata: site.metadata, title: page[:title] %>
+  </head>
+  <body class="<%= page[:layout] %> <%= page[:page_class] %>">
+    <%= partial "navbar", metadata: site.metadata, links: site.data[:links] %>
+
+    <main>
+      <%= yield %>
+    </main>
+
+    <%= liquid_render "footer", metadata: site.metadata %>
+  </body>
+</html>

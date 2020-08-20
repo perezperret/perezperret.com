@@ -5,7 +5,11 @@
     </a>
 
     <div>
-      <a href="/posts" class="ml-8 text-lg border-b-4 border-yellow-400">Blog</a>
+      <% links.each do |link| %>
+        <a href="<%= link[:url] %>" class="ml-8 text-lg text-gray-700 font-bold">
+          <%= link[:text] %>
+        </a>
+      <% end %>
     </div>
   </div>
 </nav>
