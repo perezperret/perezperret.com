@@ -1,4 +1,5 @@
-title: I spend a bit of time building little projects to learn new stuff
+title: Other stuff
+sub_title: I spend a bit of time building little projects to learn new stuff
 content:
   - title: "Colleges API"
     description:
@@ -12,3 +13,10 @@ content:
     description:
       A Ruby utility to build gists or snippets from code hosted on GitHub. Give it a repo name, file path and line numbers and it'll build a snippet.
     url: https://gist-generator-sample.vercel.app
+  - title: "perezperret.com"
+    description:
+      This website, in its current iteration built with tailwindcss and bridgetownrb.
+    url: https://github.com/perezperret/perezperret.com
+links:
+  - text: "More on github"
+    url: https://github.com/perezperret

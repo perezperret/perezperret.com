@@ -1,9 +1,14 @@
-<% data = site.data[:home][:work_experience] %>
+---
+layout: page
+title: Work experience
+sub_title: I have worked for a few startups and small companies all over the world
+permalink: /work
+---
 
-<div id="work_experience" class="bg-white py-32">
+<% data = site.data[:work] %>
+
+<div class="bg-white">
   <div class="container mx-auto">
-    <h2 class="text-3xl mb-16 text-gray-700 text-center max-w-xl mx-auto"><%= data[:title] %></h2>
-
     <% data[:content].each.with_index do |job, i| %>
       <div class="flex -mx-4 items-stretch <%= (i % 2).positive? ? 'flex-row-reverse' : '' %>">
         <div class="px-4 w-1/2">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: posts
 title: Santiago's Blog
 sub_title: My thoughts and advice about life, personal finance and software development.
 permalink: /blog
@@ -16,14 +16,14 @@ permalink: /blog
         <div class="flex items-center justify-between">
           <div class="flex">
             <% post[:categories].each do |category| %>
-              <div class="text-blue-500 mr-4 uppercase font-bold text-xs"><%= category %></div>
+              <div class="font-sans text-blue-500 mr-4 uppercase font-bold text-xs"><%= category %></div>
             <% end %>
           </div>
 
           <div class="flex items-center">
-            <div class="text-blue-500"><%= post[:author] %></div>
+            <div class="font-sans text-blue-500"><%= post[:author] %></div>
             <div class="mx-6 text-gray-600">–</div>
-            <div class="text-gray-600"><%= date_to_string post[:date], 'ordinal', 'US' %></div>
+            <div class="font-sans text-gray-600"><%= date_to_string post[:date], 'ordinal', 'US' %></div>
           </div>
         </div>
       </a>

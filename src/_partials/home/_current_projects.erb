@@ -1,20 +1,23 @@
 <% data = site.data[:home][:current_projects] %>
 
-<div id="current_projects" class="py-32">
-  <div class="container mx-auto">
-    <h2 class="text-3xl mb-16 text-gray-700 text-center max-w-xl mx-auto"><%= data[:title] %></h2>
+<div class="bg-white">
+  <div id="current_projects" class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-4xl text-gray-900 max-w-xl font-bold"><%= data[:title] %></h2>
+      <h2 class="text-xl mb-16 text-gray-900 max-w-xl font-sans"><%= data[:sub_title] %></h2>
 
-    <div class="flex flex-wrap -mx-4">
-      <% data[:content].each do |project| %>
-        <div class="px-4 w-1/2 mb-8">
-          <a href="<%= project[:url] %>" target="_blank" class="block">
-            <div class="bg-white text-gray-800 rounded-lg p-8">
-              <h3 class="font-bold text-gray-900 text-2xl mb-4 border-b-4 border-yellow-400 inline-block"><%= project[:title] %></h3>
-              <p class="mb-6"><%= project[:description] %></p>
-            </div>
-          </a>
-        </div>
-      <% end %>
+      <div class="flex flex-wrap -mx-12">
+        <% data[:content].each do |project| %>
+          <div class="px-12 w-1/2 mb-8">
+            <a href="<%= project[:url] %>" target="_blank" class="block">
+              <div class="text-gray-800">
+                <h3 class="font-bold text-gray-900 text-2xl mb-4 border-b-4 border-yellow-400 inline-block"><%= project[:title] %></h3>
+                <p class="mb-6"><%= project[:description] %></p>
+              </div>
+            </a>
+          </div>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

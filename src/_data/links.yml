@@ -1,11 +1,11 @@
 - text: "About"
   url: "/"
 
-- text: "Work"
+- text: "Projects"
   url: "/#current_projects"
 
-- text: "Experience"
-  url: "/#work_experience"
+- text: "Work"
+  url: "/work"
 
 - text: "Contact"
   url: "#contact_form"
