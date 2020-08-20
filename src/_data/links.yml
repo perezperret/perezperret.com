@@ -1,5 +1,5 @@
 - text: "About"
-  url: "/#intro"
+  url: "/"
 
 - text: "Work"
   url: "/#current_projects"

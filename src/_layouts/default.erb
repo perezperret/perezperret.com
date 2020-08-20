@@ -12,6 +12,6 @@
       <%= yield %>
     </main>
 
-    <%= liquid_render "footer", metadata: site.metadata %>
+    <%= partial "footer", metadata: site.metadata %>
   </body>
 </html>
