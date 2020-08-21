@@ -1,15 +1,41 @@
-<nav class="py-4 px-4 sm:py-8 sm:px-0 bg-white">
-  <div class="container mx-auto flex justify-between items-center">
+<nav class="p-4 sm:py-8 sm:px-0 bg-white">
+  <div class="container mx-auto flex justify-between md:items-center">
     <a href="/">
       <img src="/assets/img/logo.svg" alt="perezperret.com logo" class="w-16">
     </a>
 
-    <div>
+    <div id="navbar-menu-tray" class="hidden md:flex flex-col md:flex-row">
+      <div id="navbar-menu-close" class="md:hidden mb-8 text-3xl text-gray-600 text-right cursor-pointer">&times;</div>
+
       <% links.each do |link| %>
-        <a href="<%= link[:url] %>" class="ml-8 text-lg text-gray-800">
+        <a href="<%= link[:url] %>" class="ml-8 mb-6 text-right md:text-left md:mb-0 text-2xl md:text-lg text-gray-800">
           <%= link[:text] %>
         </a>
       <% end %>
     </div>
+
+    <div id="navbar-menu-open" class="flex md:hidden items-center text-2xl text-gray-600 font-light cursor-pointer">&#x2630</div>
   </div>
+
+  <script>
+    var initNavbarMenu = function() {
+      var navbarMenuTray = document.getElementById('navbar-menu-tray')
+      var navbarMenuOpen = document.getElementById('navbar-menu-open')
+      var navbarMenuClose = document.getElementById('navbar-menu-close')
+
+      navbarMenuOpen.addEventListener('click', function(_event) {
+        navbarMenuOpen.classList.add('hidden')
+
+        navbarMenuTray.classList.remove('hidden')
+        navbarMenuTray.classList.add('flex')
+      })
+
+      navbarMenuClose.addEventListener('click', function(_event) {
+        navbarMenuOpen.classList.remove('hidden')
+
+        navbarMenuTray.classList.add('hidden')
+        navbarMenuTray.classList.remove('flex')
+      })
+    }()
+  </script>
 </nav>

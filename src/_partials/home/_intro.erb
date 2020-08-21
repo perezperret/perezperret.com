@@ -1,8 +1,8 @@
 <% data = site.data[:home][:intro] %>
 
 <div class="mx-auto py-32 container">
-  <span class="font-sans text-3xl text-gray-700"><%= data[:pre_title] %></span>
-  <h1 class="text-6xl -mt-6 mb-10 heading"><%= data[:title] %></h1>
+  <span class="font-sans text-3xl text-gray-700 leading-none"><%= data[:pre_title] %></span>
+  <h1 class="text-6xl mb-20 heading leading-none"><%= data[:title] %></h1>
 
   <div class="max-w-xl content">
     <% data[:content].each do |p| %>

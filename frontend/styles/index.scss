@@ -22,11 +22,11 @@
   @apply .text-gray-800 .font-bold .font-serif;
 
   &--link {
-    @apply .border-b-4 .border-yellow-400 .inline-block;
+    @apply .border-b-4 .border-yellow-400 .inline;
   }
 
   &--highlight {
-    @apply .border-b-4 .border-blue-400 .inline-block;
+    @apply .border-b-4 .border-blue-400 .inline;
   }
 }
 
