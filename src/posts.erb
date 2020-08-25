@@ -24,8 +24,8 @@ permalink: /blog
     <% site.posts.reverse.each do |post| %>
       <li>
         <a class="block mb-20" href="<%= post.url %>">
-          <div class="inline-block">
-            <h2 class="mb-6 text-3xl heading heading--link"><%= post[:title] %></h2>
+          <div class="mb-4">
+            <h2 class="text-3xl heading heading--link"><%= post[:title] %></h2>
           </div>
 
           <div class="content">
