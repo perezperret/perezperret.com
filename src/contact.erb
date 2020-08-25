@@ -1,23 +1,19 @@
 ---
 layout: page
 title: Get in touch
-sub_title: I'm happy to help.
+sub_title:
+    I'm always looking for opportunities to collaborate, teach or simply bounce
+    ideas.
+content:
+    You can also each me at
+    <a href="mailto:santiago@perezperret.com?subject=feedback">
+      santiago@perezperret.com
+    </a>,
+    or fill out the form and I'll get back to you!
 permalink: /contact
 ---
 
-<div class="mb-12 max-w-xl content">
-  <p>
-    I'm always looking for opportunities to collaborate on projects, to help
-    learn to code, bounce ideas or simply talk about software.
-  </p>
-
-  <p>
-    You can easily reach me at <a href="mailto:santiago@perezperret.com?subject=feedback">santiago@perezperret.com</a>,
-    or fill out the form and I'll get back to you!
-  </p>
-</div>
-
-<form action="https://formkeep.com/f/2196b304bda9" class="mb-4" method="POST" target="_blank">
+<form action="https://formkeep.com/f/2196b304bda9" class="mb-12" method="POST" target="_blank">
   <div class="max-w-xl">
     <label for="contact_email" class="block mb-2">Enter your email</label>
 
@@ -33,3 +29,7 @@ permalink: /contact
     </div>
   </div>
 </form>
+
+<div class="mb-12 max-w-xl content">
+  <p><%= page[:content] %></p>
+</div>

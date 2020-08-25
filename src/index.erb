@@ -1,7 +1,27 @@
 ---
 layout: home
+pre_title: Hello, my name is
+title: Santiago Perez Perret
+content:
+  - I'm a web developer from Caracas, Venezuela, traveling around the world and learning as much as I can.
+    I'm currently learning portuguese, to play the guitar, to surf and to use Python for Machine Learning.
+  - I specialize in full-stack web development using Ruby on Rails.
+    I'm looking for early-stage projects to collaborate on as a consultant and full-stack developer.
+    I'm also open to full time work.
+  - My main areas of interest are financial technologies and developer tools. I'm happy to work on any kind of software,
+    and I'm very good at quickly putting together useful and extensible MVPs and prototypes.
+  - If there's anything I might help you with, don't hesitate to <a href="/contact">contact me</a>.
 ---
 
 <div class="px-4 sm:px-0">
-  <%= partial 'home/intro' %>
+  <div class="mx-auto py-32 container">
+    <span class="font-sans text-3xl text-gray-700 leading-none"><%= page[:pre_title] %></span>
+    <h1 class="text-6xl mb-20 heading leading-none"><%= page[:title] %></h1>
+
+    <div class="max-w-xl content">
+      <% page[:content].each do |p| %>
+        <p><%= p %></p>
+      <% end %>
+    </div>
+  </div>
 </div>
