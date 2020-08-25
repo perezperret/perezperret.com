@@ -1,0 +1,28 @@
+- title: PocketPatch
+  description:
+    An expense tracking and budgeting tool that helps you become more aware of your spending.
+  url: https://pocketpatch.io
+  link: Go to app
+  current: true
+- title: Rails by Example
+  description:
+    A space to share what I've learned so far about using Ruby on Rails, with code examples and blog posts.
+  url: https://github.com/railsbyexample
+  link: View on GitHub
+  current: true
+- title: "Colleges API"
+  description:
+    A simple API to query and autocomplete US higher education institutions. Needed this for a client project so I built it as a stand-alone service.
+  url: https://postsecapisample.netlify.app
+- title: "QuickURL"
+  description:
+    A small utility to build URLs from JavaScript objects. Was interesting to write using recursion.
+  url: https://quick-url-demo.netlify.app
+- title: "GistGenerator"
+  description:
+    A Ruby utility to build gists or snippets from code hosted on GitHub. Give it a repo name, file path and line numbers and it'll build a snippet.
+  url: https://gist-generator-sample.vercel.app
+- title: "perezperret.com"
+  description:
+    This website, in its current iteration built with tailwindcss and bridgetownrb.
+  url: https://github.com/perezperret/perezperret.com

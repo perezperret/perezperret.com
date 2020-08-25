@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 .content {
-  @apply .text-gray-900;
+  @apply .text-gray-900 .text-lg;
 
   h2 {
     @apply .text-3xl .font-bold .font-serif .mb-4 .mt-12 .text-gray-900;
@@ -15,6 +15,12 @@
 
   a {
     @apply .border-b-2 .border-blue-400;
+  }
+
+  ol {
+    li {
+      @apply .list-decimal;
+    }
   }
 }
 
