@@ -19,7 +19,7 @@
 
   ol {
     li {
-      @apply .list-decimal;
+      @apply .list-decimal .ml-4 .pl-2;
     }
   }
 }

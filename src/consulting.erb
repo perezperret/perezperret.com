@@ -7,29 +7,39 @@ permalink: /consulting
 ---
 
 <div class="max-w-2xl content">
-  <% markdownify do %>
-    I've worked for years as a developer, mostly building web applications and
-    I've learned a lot of the technical in and outs, but I believe the most
-    important lessons are not the technical ones.
+  <div class="mb-16">
+    <% markdownify do %>
+      I've [worked for years](/work) as a developer, mostly building web applications and
+      I've learned a lot of the technical ins and outs, but I believe the most
+      important lessons I've learned are the management and soft-skills ones.
 
-    One of the most important such lessons has been that software development
-    work is costly, so as a software developer, my labor is costly, and as
-    such, I want to justify it with as much value added as possible.
+      One of the most important of these lessons has been that software
+      development work is costly, so my labor is costly, and knowing this, I
+      want to justify it with as much value added as possible, so I need to
+      make sure I'm using my hard skills in the best way possible.
 
-    To achieve this, I propose a very simple system:
+      To ensure this, I propose a very simple system:
 
-    1. For the first couple of weeks, I do purely consulting work: understanding
-    your company or project, the problems you're facing, and how you think
-    software (and my work as a developer) might help solve them. I'll come up
-    with some proposals that may or may not involve furthe work from me.
+      1. For the first couple of weeks, I do purely consulting work:
+      understanding your company or project, the problems you're facing, and
+      how you think software (and my work as a developer) might help solve them.
+      I'll come up with some proposals that may or may not involve further work
+      from me.
 
-    1. If we find a good opportunity for me to develop some software, either
-    individually or as a part of your team, we come up with a plan to execute
-    that. Often times, you won't need to write custom software to solve a
-    problem, and that's perfectly fine.
+      1. If we find a good opportunity for me to develop some software, either
+      individually or as a part of your team, we come up with a plan to execute
+      that. Often times, you won't need to write custom software to solve a
+      problem, and that's perfectly fine by me.
 
-    Since I'm just getting started with this system, I'm happy to do the two
-    weeks consultation for free, starting with an informal meeting. Just
-    [reach out](/contact)
-  <% end %>
+      Since I'm just getting started with this system, I'm happy to do the two
+      weeks consultation for free, starting with an informal meeting. Just
+      leave your email below or reach out to me at
+      [santiago@perezperret.com](mailto:santiago@perezperret.com)
+      and I'll get back to you quickly.
+    <% end %>
+  </div>
+
+  <div class="max-w-xl">
+    <%= partial 'contact_form', locals: { source_page: page[:permalink] } %>
+  </div>
 </div>
