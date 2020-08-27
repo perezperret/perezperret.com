@@ -10,6 +10,10 @@
   url: https://github.com/railsbyexample
   link: View on GitHub
   current: true
+- title: "Current Lifestyle"
+  description:
+    A retirement calculator to estimate the monthly savings needed to sustain your current lifestyle during retirement.
+  url: https://current-lifestyle.vercel.app
 - title: "Colleges API"
   description:
     A simple API to query and autocomplete US higher education institutions. Needed this for a client project so I built it as a stand-alone service.
