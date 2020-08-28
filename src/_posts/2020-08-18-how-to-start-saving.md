@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How to start saving
+title: How You Can Start Saving Too
 date: 2020-08-18
 author: Santiago Perez Perret
-permalink: "/how-to-start-saving"
+permalink: "/how-you-can-start-saving-too"
 excerpt: ' It''s very easy to tell yourself something along the lines of: "I''m hardly
   getting by, I''m in no position to put away money right now". But a bit of planning
   and a shift in mindset can go a long way. '
