@@ -41,13 +41,11 @@ _As a side-note, if you're also having trouble setting up a decent savings accou
 
 It seems crazy to think about this before 30, but I know at some point in my life I won't be able or willing to work. Most of my life I have acted like at some later moment I'm going to hit a home-run and not need to worry about money ever again, but as I have consistently increased my income, I have realized this is a stressful approach. Instead, I'm now trying to get my shit together, so I can take care of myself without needing more luck.
 
-My approach to getting started is simple, set a retirement age for yourself, figure out how much you would need to put away each month until you're that age so that by that time, you have enough money to pay yourself your current expenses until your life-expectancy.
-
-My approach is simple, I figured out how much I would need to start putting away each month so that when I'm 65, I can cover my current expenses until I'm 85. To my surprise, I could start hitting this number today. I hope I can retire earlier than that, with a more comfortable lifestyle than I have now, and I know my expenses are bound to grow with time, but knowing that this is my baseline gives me a huge amount of peace.
+My approach to getting started is simple, set a retirement age for yourself, figure out how much you would need to put away each month until you're that age so that by that time, you have enough money to pay yourself your current expenses throughout your retirement. This will give you a baseline for what you need to be saving. As your expenses grow (and hopefully your income too), you can re-adjust this number. I put the formula I used [into a little calculator](https://current-lifestyle.vercel.app/) you can use too.
 
 I'm obviously going to try to grow this input, I'm going to have to figure out taxes and a lot of more stuff, but I have something I can get started on right now and put on auto-pilot. One thing I've learned recently is that there is nothing more powerful than something you [repeat consistently for years and years](https://jamesclear.com/atomic-habits "repeat consistently for years and years").
 
-If on the one hand, your number seems out of reach, I feel you, I was there not long ago. The most important take away there in my opinion, is that you now know you're not actually making enough money. That clarity is very powerful, and among other things, it should give you a confidence boost to ask for a raise or increase your rates.
+If on the one hand, your number seems out of reach, I feel you, I was there not long ago. The most important take away there in my opinion, is that you now know you're not actually making enough money. That clarity is very powerful, and among other things, it should give you a confidence boost to ask for a raise or increase your freelancing rates.
 
 If on the other hand, you run your numbers and you're already well above this, maybe you can start making bigger plans.
 
