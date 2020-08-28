@@ -16,7 +16,7 @@ I mean, challenging in the sense that it would challenge my way of thinking, but
 
 I'm not going to dive into too many details about the book, but I do encourage you to pick it up. I think it's worth reading the whole thing. These are just my thoughts, no spoilers.
 
-## First, money as life energy.
+## First, money as life energy
 
 I bill by the hour as a contractor, so I have a very clear picture of what an hour of work gets me in terms of money. So my usual rationale was that if something I needed to do was going to take an hour, I was willing to pay someone or some company to do it for me, up to my hourly rate. That was a way I justified a lot of my spending.
 
@@ -36,7 +36,7 @@ I have taken to learning, writing, and coding about personal finance, and though
 
 This idea has the added benefit of removing some pressure from my day job to give me meaning and also taking off some pressure from my side-projects to make money.
 
-## Third, community wealth.
+## Third, community wealth
 
 I have been doing a lot of soul-searching the last couple of years, been to beautiful places, and done a lot of exciting stuff, but I have found the two things that genuinely bring me joy are learning and sharing with close friends and family. I could almost say I believe building a close community is the true meaning of life.
 
