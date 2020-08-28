@@ -27,3 +27,5 @@ fields:
 - type: list
   name: categories
   label: categories
+pages:
+- src/_posts/3-things-i-learned-from-your-money-or-your-life.md
