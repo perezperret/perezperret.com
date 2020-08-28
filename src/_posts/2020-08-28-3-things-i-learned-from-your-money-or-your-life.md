@@ -7,7 +7,8 @@ permalink: "/3-things-i-learned-from-your-money-or-your-life"
 excerpt: A great book, with an interesting and unconventional approach to personal
   finance.
 categories:
-- Personal Finance
+- Life
+- Personal finance
 
 ---
 In the past couple of years, I have realized how interested I am in personal finance. One of the things I'm trying to do about it is to read more on this topic. I recently picked up "[Your Money or Your Life" by Vicki Robin](https://www.amazon.com/dp/B0052MD8VO/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1). I read about it online, and it felt like it would be a challenging read for me. I wasn't disappointed.
