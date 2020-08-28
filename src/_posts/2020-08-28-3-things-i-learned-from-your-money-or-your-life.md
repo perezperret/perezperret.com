@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 Things I Learned from "Your Money or Your Life"
+title: 3 Things I Learned From "Your Money or Your Life"
 date: 2020-08-28T13:07:49Z
 author: Santiago Perez
 permalink: "/3-things-i-learned-from-your-money-or-your-life"
