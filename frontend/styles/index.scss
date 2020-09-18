@@ -18,9 +18,15 @@
   }
 
   ol {
+    @apply .mb-6;
+
     li {
-      @apply .list-decimal .ml-4 .pl-2;
+      @apply .list-decimal .ml-8 .pl-2 .mb-4;
     }
+  }
+
+  hr {
+    @apply .my-8;
   }
 }
 
