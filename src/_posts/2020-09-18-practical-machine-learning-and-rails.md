@@ -3,7 +3,7 @@ layout: post
 title: Practical Machine Learning and Rails
 date: 2020-09-18T03:00:00Z
 author: Santiago
-permalink: "/practical-machine-learning-rails"
+permalink: "/practical-machine-learning-and-rails"
 excerpt: How I built a Machine Learning workflow to integrate with a Ruby on Rails
   app
 categories:
