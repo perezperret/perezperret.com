@@ -29,3 +29,4 @@ fields:
   label: categories
 pages:
 - src/_posts/2020-08-28-3-things-i-learned-from-your-money-or-your-life.md
+- src/_posts/practical-machine-learning-and-rails.md
