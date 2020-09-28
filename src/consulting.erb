@@ -1,45 +1,47 @@
 ---
 layout: page
 title: Consulting
-sub_title:
-  My system for getting better outcomes from contract software development.
+sub_title: Get better outcomes from contract software development.
 permalink: /consulting
 ---
 
-<div class="max-w-2xl content">
-  <div class="mb-16">
-    <% markdownify do %>
-      I've [worked for years](/work) as a developer, mostly building web applications and
-      I've learned a lot of the technical ins and outs, but I believe the most
-      important lessons I've learned are the management and soft-skills ones.
+<div class="max-w-2xl content mb-16">
+  <% markdownify do %>
+    I've [worked for years](/work) as a developer, mostly writing code for web
+    applications as a contractor or freelancer. Recently I've shifted to a
+    more integral approach as a consultant. This means that on top of writing
+    code, I help figure out how to better use technology to solve
+    business problems.
 
-      One of the most important of these lessons has been that software
-      development work is costly, so my labor is costly, and knowing this, I
-      want to justify it with as much value added as possible, so I need to
-      make sure I'm using my hard skills in the best way possible.
+    Some of the things I can help you with:
 
-      To ensure this, I propose a very simple system:
+    1. **Figuring out what you need from software.** Often the problems
+    that at first glance we want to solve with code, can be approached with
+    less costly solutions, and if the outcome of my engagement is that you
+    don't need to hire me for development work, all the better.
 
-      1. For the first couple of weeks, I do purely consulting work:
-      understanding your company or project, the problems you're facing, and
-      how you think software (and my work as a developer) might help solve them.
-      I'll come up with some proposals that may or may not involve further work
-      from me.
+    2. **Validating an idea with low-code solutions.** There is also a middle ground,
+    where you need something custom, but it's not clear how it is going to
+    add value. In these cases, a good first step is putting together simpler
+    solutions using existing services and some glue code to put your ideas to
+    test. I'm good at doing this and the tools are getting better and better
+    every day.
 
-      1. If we find a good opportunity for me to develop some software, either
-      individually or as a part of your team, we come up with a plan to execute
-      that. Often times, you won't need to write custom software to solve a
-      problem, and that's perfectly fine by me.
+    3. **Full stack development.** If you have a mature idea, I can help you put
+    together a first version, using best practices to lay a solid foundation
+    for software you can grow and evolve over time, within a reasonable
+    timeframe, without cutting coreners.
 
-      Since I'm just getting started with this system, I'm happy to do the two
-      weeks consultation for free, starting with an informal meeting. Just
-      leave your email below or reach out to me at
-      [santiago@perezperret.com](mailto:santiago@perezperret.com)
-      and I'll get back to you quickly.
-    <% end %>
-  </div>
+    4. **Existing Ruby on Rails projects.** If you have an application that has
+    gotten painful to improve or maintain, I can help you figure out how to
+    put it back on track.
 
-  <div class="max-w-xl">
-    <%= partial 'contact_form', locals: { source_page: page[:permalink] } %>
-  </div>
+    If it sounds like I can help, just leave your email below or reach out
+    to me at [santiago@perezperret.com](mailto:santiago@perezperret.com)
+    and I'll get back to you shortly.
+  <% end %>
+</div>
+
+<div class="max-w-xl">
+  <%= partial 'contact_form', locals: { source_page: page[:permalink] } %>
 </div>

@@ -2,15 +2,6 @@
 layout: home
 pre_title: Hello, my name is
 title: Santiago Perez Perret
-content:
-  - I'm a web developer from Caracas, Venezuela, traveling around the world and learning as much as I can.
-    I'm currently learning portuguese, to play the guitar, to surf and to use Python for Machine Learning.
-  - I specialize in full-stack web development using Ruby on Rails.
-    I'm looking for early-stage projects to collaborate on as a consultant and full-stack developer.
-    I'm also open to full time work.
-  - My main areas of interest are financial technologies and developer tools. I'm happy to work on any kind of software,
-    and I'm very good at quickly putting together useful and extensible MVPs and prototypes.
-  - If there's anything I might help you with, don't hesitate to <a href="/contact">contact me</a>.
 ---
 
 <div class="px-4 sm:px-0">
@@ -18,10 +9,27 @@ content:
     <span class="font-sans text-3xl text-gray-700 leading-none"><%= page[:pre_title] %></span>
     <h1 class="text-6xl mb-20 heading leading-none"><%= page[:title] %></h1>
 
-    <div class="max-w-xl content">
-      <% page[:content].each do |p| %>
-        <p><%= p %></p>
+    <div class="max-w-2xl content mb-16">
+      <% markdownify do %>
+        I'm a web developer from Caracas, Venezuela, traveling around the world and learning as much as I can.
+        I'm currently learning portuguese, to play the guitar, to surf and to use Python for Machine Learning.
+
+        I specialize in full-stack web development using Ruby on Rails. My main
+        areas of interest are financial technologies and developer tools.
+
+        I can help you with:
+
+        1. **Figuring out what you need from software**
+        2. **Validating an idea with low-code solutions**
+        3. **Full stack development**
+        4. **Existing Ruby on Rails projects**
+
+        You can [learn more here](/consulting).
       <% end %>
+    </div>
+
+    <div class="max-w-xl">
+      <%= partial 'contact_form', locals: { source_page: page[:permalink] } %>
     </div>
   </div>
 </div>
