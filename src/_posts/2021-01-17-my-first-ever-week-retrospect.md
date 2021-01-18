@@ -4,7 +4,7 @@ title: My first ever week retrospect
 date: 2021-01-17T03:00:00Z
 author: Santiago
 permalink: "/my-first-ever-week-retrospect"
-excerpt: A very useful exercise I had managed to NEVER try. Looking forward on sharing
+excerpt: A very useful exercise I had managed to NEVER try. Looking forward to sharing
   the results next week.
 categories:
 - Habits
