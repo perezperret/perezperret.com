@@ -17,7 +17,7 @@ Having a nice mental model, and some numbers behind how I'm structuring my savin
 
 Quite simply, get some decent insurance coverage. The most important one is medical, which if you live in a country with universal healthcare this is already taken care of by your taxes. Still, there are other categories you might need to consider too: auto-, renters-, or liability-insurance (for freelancers and contractors) for instance.
 
-As [I've written before](/how-to-start-saving), this is a no-brainer, if I'm going to take saving seriously, I don't want an unexpected event to throw all my effort to waste.
+As [I've written before](/how-you-can-start-saving-too), this is a no-brainer, if I'm going to take saving seriously, I don't want an unexpected event to throw all my effort to waste.
 
 Currently, I'm only getting health insurance (through [Safety Wing](https://safetywing.com/nomad-insurance)) since I'm traveling around, and I'm planning to upgrade to something with more coverage soon.
 
